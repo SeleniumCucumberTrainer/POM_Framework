@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50610" started-at="2020-08-29T08:41:07Z" finished-at="2020-08-29T08:41:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50610" started-at="2020-08-29T08:41:07Z" finished-at="2020-08-29T08:41:57Z">
+      <class name="TestCases.FacebookLogin">
+        <test-method status="PASS" signature="init()[pri:0, instance:TestCases.FacebookLogin@1753acfe]" name="init" is-config="true" duration-ms="49006" started-at="2020-08-29T14:11:07Z" finished-at="2020-08-29T14:11:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:TestCases.FacebookLogin@1753acfe]" name="testLogin" duration-ms="239" started-at="2020-08-29T14:11:56Z" finished-at="2020-08-29T14:11:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestCases.FacebookLogin@1753acfe]" name="closeBrowser" is-config="true" duration-ms="1335" started-at="2020-08-29T14:11:56Z" finished-at="2020-08-29T14:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.FacebookLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
