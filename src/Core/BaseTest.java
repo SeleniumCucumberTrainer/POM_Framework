@@ -15,11 +15,16 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import Util.Xls_Reader;
+
 public class BaseTest {
 	
 	static public WebDriver driver;
 	static public Properties config;
+	static public Properties ObjectRepo;
 	static public FileInputStream fis ;
+	static public FileInputStream locator ;
+	static public Xls_Reader excel;
 	
 	
 	@BeforeMethod
@@ -27,13 +32,16 @@ public class BaseTest {
 		
 		String Userpath = System.getProperty("user.dir");
 		
-		
+		 excel = new Util.Xls_Reader(Userpath+"\\Data\\TestData.xlsx");
 		
 		config = new Properties(); 
+		ObjectRepo = new Properties(); 
 		
 		fis = new FileInputStream(Userpath+"\\src\\Config\\config.properties");
+		locator = new FileInputStream(Userpath+"\\src\\ObjectRepo\\Locators.properties");
 		
 		config.load(fis);
+		ObjectRepo.load(locator);
 		
 		String browserValue = config.getProperty("browser");
 		
