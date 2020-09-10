@@ -13,7 +13,6 @@ public class HomePageTestCases extends BaseTest{
 		
 		driver.findElement(By.id(ObjectRepo.getProperty("createNewAct"))).click();
 	
-		
 	}
 	
 	

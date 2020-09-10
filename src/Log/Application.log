@@ -1,0 +1,8 @@
+06/09/2020 13:55:44 devpinoyLogger Opening Chrome browser.....
+06/09/2020 13:55:46 devpinoyLogger Maximizing browser.....
+06/09/2020 13:55:46 devpinoyLogger Waiting for page to load
+06/09/2020 13:55:56 devpinoyLogger Opening http:/www.facebook.com
+06/09/2020 13:55:56 devpinoyLogger Entering email id into facebook
+06/09/2020 13:55:56 devpinoyLogger Entering Password into facebook
+06/09/2020 13:55:56 devpinoyLogger Clicking on Login Button
+06/09/2020 13:56:00 devpinoyLogger Varification is done so I am done with Test case
